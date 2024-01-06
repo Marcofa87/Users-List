@@ -1,0 +1,45 @@
+@import "variables";
+  div.single-info-component{
+    border: 2px solid $borderColorSingleInfoStyle;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 20px;
+    p{
+      margin: 0;
+      position: relative;
+      i{
+        position: absolute;
+        right: 0;
+      }
+    }
+    input{
+      width: 100%;
+    }
+    .labelSingleInfo{
+      position: absolute;
+      font-size: 0.8em;
+      padding: 0 5px;
+      top: -10px;
+      left: 20px;
+      z-index: 5;
+      background-color: $backgroundLabelSingleInfoStyle;
+      color: $colorLabelSingleInfoStyle;
+    }
+    .textSingleInfo{
+      padding: 15px;
+      color: $colorTextSingleInfoStyle;
+      a{
+        color: $colorTextSingleInfoStyle;
+      }
+    }
+    i{
+      position: absolute;
+      top: -10px;
+      right: 20px;
+      z-index: 5;
+      background-color: $backgroundLabelSingleInfoStyle;
+      color: $colorLabelSingleInfoStyle;
+      padding: 0 5px;
+      font-size: 18px;
+    }
+  }
